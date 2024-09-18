@@ -1,0 +1,14 @@
+						Rabu, 11 September 2024
+
+How tu add CSS
+1. Inline
+2. Internal
+
+
+
+CSS Selector
+1. Element / Tag
+2. Id
+3. class
+	1 Style bisa untukk 1 atau banyak element
+	1 element bisa diberi banyak class

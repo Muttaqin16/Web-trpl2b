@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF -8" />
+		<title>Form HTML</title>
+	</head>
+	<body>
+		<h1>Form Pendaftaran</h1>
+		<!-- Tempat from akan dibuat di sini -->
+		<table>
+		<form action="">
+			<fieldset>
+				<legend>Data Pribadi</legend>
+			<!-- Tambahkan elemen input di sini -->
+			</fieldset>
+		</form>
+
+		<label for="nim">NIM : </label>
+		<input type="number" name="nim" id="nim" placeholder="Input NIM anda" required />
+		<br /><br />
+		
+		<label for="nama">Nama : </label>
+		<input type="text" name="nama" id="nama" required />
+		<br /><br />
+		
+		<label for="email">Email : </label>
+		<input type="email" name="email" id="email" required />
+		<br /><br />
+		
+		<label for="password">Password : </label>
+		<input type="password" name="password" id="password" required />
+		<br /><br />
+		
+		<label for="data">Tanggal Lahir : </label>
+		<input type="date" name="date" id="date" required />
+		<br /><br />
+		
+		<label for="jk">Jenis Kelamin : </label>
+		<input type="radio" name="gender" value="Laki - Laki" required />
+		<input type="radio" name="gender" value="Perempuan" required />
+		<br /><br />
+		
+		<label for="Hoby">Hobi : </label>
+		<input type="Checkbox" name="hobi" value="Membaca" /> Membaca
+		<input type="Checkbox" name="hobi" value="Bernyanyi" /> Bernyanyi
+		<input type="Checkbox" name="hobi" value="Olahraga" /> Olahraga
+		<br /><br />
+		
+		<label for="jurusan">Jurusan : </label>
+		<select name="jurusan" id="jurusan">
+			<option value="">Pilih Jurusan</option>
+			<option value="TI">Teknologi Informasi</option>
+			<option value="TE">Teknik Elektro</option>
+			<option value="TM">Teknik Mesin</option>
+			<option value="TS">Teknik Sipil</option>
+		</select>	
+		<br /><br />
+		
+		<label for="alamat">Alamat : </label>
+		<textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+		<br /><br />
+		
+		<label for="foto"> Upload Foto : </label>
+		<input type="file" name="foto" id="foto" accept="image/*" />
+		<br /><br />
+		
+		<input type="submit" name="submit">
+		<input type="reset" name="reset">
+		
+		</table>
+	</body>
+</html>

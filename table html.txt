@@ -1,0 +1,20 @@
+Tabel / table
+-
+-
+-
+-
+
+tag di element table
+<table>  -> tag utama (wajib)
+<thead>  -> table head (optional)
+<tbody>  -> table body (optional)
+<tr>     -> table row (wajib)
+<th>     -> table head (optional+)
+<td>     -> table data (wajib)
+
+colspan (menggabungkan cell ke samping)
+rowspan (menggabungkan cell ke bawah)
+
+===============================================================
+Link 
+<a>  ->  anchor () = untuk menghubunkan dengan halaman lainnya atau WEB lainnya
